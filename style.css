@@ -12,6 +12,7 @@ body {
     background-color: #1F2937;
     align-items: center;
     justify-content: space-evenly;
+    padding: 10px;
 }
 
 .header .logo {
@@ -25,4 +26,88 @@ body {
     font-size: 18px;
     color: #E5E7EB;
     gap: 20px;
+}
+
+.content1 {
+    display:flex;
+    background-color: #1F2937;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.partA {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.partA h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.partA p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.partA button {
+    background: #3882F6;
+    border-radius: 10px;
+    padding: 10px;
+    color: #E5E7EB;
+    width: 100px;
+    height: 50px;
+    border: none;
+    font-weight: bold;
+}
+
+.partB {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.partB img {
+    object-fit: cover;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    gap: 30px;
+}
+
+.content2 h2 {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.listcards {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    font-size: 20px;
+    color: #1F2937;
+}
+
+.content3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    font-size: 20px;
+    color: #1F2937;
+    padding: 50px;
 }
